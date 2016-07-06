@@ -56,7 +56,7 @@ df$pagerange = df$pages
 
 df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi", "SoupText")]
 
-m <- train_model(instance, n_topics=50, n_iters=300, metadata=df, threads=8)
+m <- train_model(instance, n_topics=25, n_iters=1000, metadata=df, threads=8)
 #write_mallet_model(m, "modeling_results")
 #export_browser_data(m, out_dir="browser", overwrite=TRUE)
 
