@@ -40,26 +40,41 @@ for (i in c(1:nrow(df))){
 }
 
 
-df$SoupText = paste(df$title, df$keywords, df$abstract, df$FullText)
-df$SoupText = gsub("[\\{|\\}]", "", gsub("\\\\", "", df$SoupText))
+removeText = "[^A-za-z0-9+,.;:() ]+"
 
-instance = mallet.import(as.character(c(1:nrow(df))),
-                         df$SoupText,
-                         "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
+df$SoupText = paste(df$title, df$keywords, df$abstract, df$FullText)
+df$SoupText = gsub(removeText, "", df$SoupText)
+df$title = gsub(removeText, "", df$title)
 
 # dfr-browser expects seven metadata columns: id,title,author,journaltitle,volume,issue,pubdate,pagerange
-df$id = c(1:nrow(df))
+df$id = df$url
 df$journaltitle = df$journal
 df$issue = df$number
 df$pubdate = df$year
 df$pagerange = df$pages
 
-df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi", "SoupText")]
+locs = which(!is.na(df$doi))
+df$id[locs] = paste0("http://dx.doi.org/", df$doi[locs])
 
-m <- train_model(instance, n_topics=25, n_iters=1000, metadata=df, threads=8)
+emptyIDs = which(is.na(df$id))
+# need to figure out how to directly link to scopus
+# link to google scholar if we can't find stuff
+#https://scholar.google.nl/scholar?hl=en&q=2-s2.0-8491989818
+df$id[emptyIDs] = paste0("https://scholar.google.nl/scholar?hl=en&q=",
+                           unlist(lapply(paste0('"',
+                                                df$title[emptyIDs],
+                                                '" ',
+                                                df$journal[emptyIDs]), URLencode)))
+
+instance = mallet.import(df$id,
+                         df$SoupText,
+                         "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
+
+df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi")]
+
+m <- train_model(instance, n_topics=50, n_iters=1000, metadata=df, threads=8)
 #write_mallet_model(m, "modeling_results")
 #export_browser_data(m, out_dir="browser", overwrite=TRUE)
 
-
-dfr_browser(m, out_dir = "/home/cbdavis/Desktop/svn/industrial-symbiosis-literature/topic-modelling-visualization", internalize = TRUE, browse = TRUE)
+dfr_browser(m, out_dir = "/home/cbdavis/Desktop/svn/industrial-symbiosis-literature/topic-modelling-visualization", internalize = TRUE, browse = FALSE)
 
