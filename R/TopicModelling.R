@@ -49,12 +49,25 @@ df$SoupText = paste(df$title, df$keywords, df$abstract, df$FullText)
 df$SoupText = gsub(removeText, " ", df$SoupText)
 df$title = gsub(removeText, " ", df$title)
 
+df$journal = gsub("\\\\&", "&", df$journal)
+df$author = gsub("\\{|\\}", "", df$author)
+
 # dfr-browser expects seven metadata columns: id,title,author,journaltitle,volume,issue,pubdate,pagerange
 df$id = df$url
 df$journaltitle = df$journal
 df$issue = df$number
 df$pubdate = df$year
 df$pagerange = df$pages
+
+# replace NA with ""
+cols = c("title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange")
+for (col in cols){
+  naVals = which(is.na(df[,col]))
+  if (any(naVals)){
+    df[naVals,col] = ""
+  }
+}
+
 
 locs = which(!is.na(df$doi))
 df$id[locs] = paste0("http://dx.doi.org/", df$doi[locs])
@@ -64,24 +77,21 @@ emptyIDs = which(is.na(df$id))
 # link to google scholar if we can't find stuff
 #https://scholar.google.nl/scholar?hl=en&q=2-s2.0-8491989818
 df$id[emptyIDs] = paste0("https://scholar.google.nl/scholar?hl=en&q=",
-                           unlist(lapply(paste0('"',
-                                                df$title[emptyIDs],
-                                                '" ',
-                                                df$journal[emptyIDs]), URLencode)))
+                         unlist(lapply(paste0('"',
+                                              df$title[emptyIDs],
+                                              '" ',
+                                              df$journal[emptyIDs]), URLencode)))
 
 
-# instance = mallet.import(df$id,
-#                          df$SoupText,
-#                          "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
+instance = mallet.import(df$id,
+                         df$SoupText,
+                         "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
 
-instance = mallet.import(as.character(c(1:nrow(df))),
-                        df$SoupText,
-                        "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
 
 
 df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi")]
 
-m <- train_model(instance, n_topics=100, n_iters=1000, metadata=df, threads=8)
+m <- train_model(instance, n_topics=50, n_iters=1000, metadata=df, threads=8)
 #write_mallet_model(m, "modeling_results")
 #export_browser_data(m, out_dir="browser", overwrite=TRUE)
 
