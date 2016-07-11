@@ -15,6 +15,8 @@ baseDir = "/home/cbdavis/Desktop/IndustrialSymbiosis/files"
 
 df$FullText = ""
 
+# should analyze in blocks of 500 words
+
 # process the pdfs which are included
 for (i in c(1:nrow(df))){
   print(i)
@@ -43,8 +45,9 @@ for (i in c(1:nrow(df))){
 removeText = "[^A-za-z0-9+,.;:() ]+"
 
 df$SoupText = paste(df$title, df$keywords, df$abstract, df$FullText)
-df$SoupText = gsub(removeText, "", df$SoupText)
-df$title = gsub(removeText, "", df$title)
+#df$SoupText = paste(df$title, df$keywords, df$abstract)
+df$SoupText = gsub(removeText, " ", df$SoupText)
+df$title = gsub(removeText, " ", df$title)
 
 # dfr-browser expects seven metadata columns: id,title,author,journaltitle,volume,issue,pubdate,pagerange
 df$id = df$url
@@ -66,13 +69,19 @@ df$id[emptyIDs] = paste0("https://scholar.google.nl/scholar?hl=en&q=",
                                                 '" ',
                                                 df$journal[emptyIDs]), URLencode)))
 
-instance = mallet.import(df$id,
-                         df$SoupText,
-                         "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
+
+# instance = mallet.import(df$id,
+#                          df$SoupText,
+#                          "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
+
+instance = mallet.import(as.character(c(1:nrow(df))),
+                        df$SoupText,
+                        "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
+
 
 df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi")]
 
-m <- train_model(instance, n_topics=50, n_iters=1000, metadata=df, threads=8)
+m <- train_model(instance, n_topics=100, n_iters=1000, metadata=df, threads=8)
 #write_mallet_model(m, "modeling_results")
 #export_browser_data(m, out_dir="browser", overwrite=TRUE)
 
