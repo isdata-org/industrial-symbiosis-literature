@@ -5,6 +5,7 @@
 This is an ongoing effort to both collect and analyze literature related to [Industrial Symbiosis](https://en.wikipedia.org/wiki/Industrial_symbiosis).  
 
 ## [Visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html)
+<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling.png" width="400"></a>
 
 To analyze the literature, we use [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) ([video](https://www.youtube.com/watch?v=5mkJcxTK1sQ)), which examines statistical properties of the text in order to determine the topics that are present.  
 
@@ -15,8 +16,6 @@ To analyze the literature, we use [Topic Modelling](https://en.wikipedia.org/wik
 * [How the prevalence of topics has changed over time](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/list)
 * [Which topics a word is prevalent in](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/eip)
 * [Which words are relevant for the topics](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/words)
-
-<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling.png" width="400"></a>
 
 Topics related to analysis/assessment of IS/EIP:
 * [Topic 1](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/topic/1) - general overview
