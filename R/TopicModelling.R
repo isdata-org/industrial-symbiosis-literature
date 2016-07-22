@@ -2,6 +2,7 @@
 options(stringsAsFactors = FALSE)
 
 options(java.parameters="-Xmx2g")   # optional, but more memory for Java helps
+# devtools::install_github("agoldst/dfrtopics")
 library(dfrtopics)
 library(RefManageR)
 library(mallet)
@@ -14,8 +15,6 @@ rm(entries)
 baseDir = "/home/cbdavis/Desktop/IndustrialSymbiosis/files"
 
 df$FullText = ""
-
-# should analyze in blocks of 500 words
 
 # process the pdfs which are included
 for (i in c(1:nrow(df))){
@@ -90,6 +89,8 @@ instance = mallet.import(df$id,
 
 
 df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi")]
+# authors need to be separated by a tab in order to show up correctly
+df$author = gsub(" and ", "\t", df$author)
 
 m <- train_model(instance, n_topics=50, n_iters=1000, metadata=df, threads=8)
 #write_mallet_model(m, "modeling_results")
