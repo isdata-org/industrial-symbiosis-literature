@@ -23,6 +23,8 @@ Topics related to analysis/assessment of IS/EIP:
 
 Topics including specific words:
 * [Analysis](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/analysis)
+* [Assessment](
+http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/assessment)
 * [Criteria](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/criteria)
 * [Indicators](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/indicators)
 * [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor)
