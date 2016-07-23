@@ -21,6 +21,12 @@ Topics related to analysis/assessment of IS/EIP:
 * [Topic 1](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/topic/1) - general overview
 * [Topic 40](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/topic/40) - focus on China
 
+Topics including specific words:
+* [Analysis](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/analysis)
+* [Criteria](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/criteria)
+* [Indicators](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/indicators)
+* [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor)
+
 ## Bibliography
 
 In the [literature overview](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/bib) you can search by author, year, etc.
