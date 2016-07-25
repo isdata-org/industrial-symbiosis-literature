@@ -26,10 +26,6 @@ Topics represent collections of words that frequently co-occur within a document
 * [Which topics a word is prevalent in](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/eip)
 * [Which words are relevant for the topics](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/words)
 
-Topics related to analysis/assessment of IS/EIP:
-* [Topic 1](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/topic/1) - general overview
-* [Topic 40](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/topic/40) - focus on China
-
 Topics including specific words:
 * [Analysis](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/analysis)
 * [Assessment](
