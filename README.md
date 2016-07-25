@@ -3,6 +3,7 @@
 - [What?](#what)
 - [Visualization](#visualization)
 - [Bibliography](#bibliography)
+- [Software](#software)
 
 ## What?
 
@@ -41,3 +42,7 @@ In the [literature overview](http://isdata-org.github.io/industrial-symbiosis-li
 The source data used in the analysis below is from the file [IndustrialSymbiosis.bib](IndustrialSymbiosis.bib), which is stored using the [BibTeX](https://en.wikipedia.org/wiki/BibTeX) format.  This is an open standard and [can be read by most literature reference managers](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software#Import_file_formats).
 
 Entries in [IndustrialSymbiosis.bib](IndustrialSymbiosis.bib) containing `file = {Full Text PDF:` indicate that we have the actual pdf of the article and that this is used in the analysis.  Otherwise, only the title, abstract and keywords are used.
+
+## Software
+
+The visualization uses the great [dfrtopics R package](https://github.com/agoldst/dfrtopics) by [Andrew Goldstone](https://andrewgoldstone.com/) which in turn uses [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) to perform the actual [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model).
