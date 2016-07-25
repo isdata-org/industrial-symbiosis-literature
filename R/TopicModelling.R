@@ -82,6 +82,8 @@ df$id[emptyIDs] = paste0("https://scholar.google.nl/scholar?hl=en&q=",
                                               df$journal[emptyIDs]), URLencode)))
 
 
+df$id = gsub("http://dx.doi.org/http://dx.doi.org/", "http://dx.doi.org/", df$id)
+
 instance = mallet.import(df$id,
                          df$SoupText,
                          "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
