@@ -52,6 +52,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
 
 * Flows/Substances:
   * [Heat](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/heat)
+  * [Paper](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/paper)
   * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
   * [Water](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/water)
 
