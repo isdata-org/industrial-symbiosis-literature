@@ -1,5 +1,9 @@
 # industrial-symbiosis-literature
 
+- [What?](#what)
+- [Visualization](#visualization)
+- [Bibliography](#bibliography)
+
 ## What?
 
 This is an ongoing effort to both collect and analyze literature related to [Industrial Symbiosis](https://en.wikipedia.org/wiki/Industrial_symbiosis).  To analyze the literature, we use [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) ([video](https://www.youtube.com/watch?v=5mkJcxTK1sQ)), which examines statistical properties of the text in order to determine the topics that are present.  
