@@ -7,7 +7,12 @@ This is an ongoing effort to both collect and analyze literature related to [Ind
 Topics represent collections of words that frequently co-occur within a documents, and by looking at the collection of words in a single topic, you can often deduce that the general theme is.  For example, if you see in a topic the words "*industrial, ecology, nature, metaphor, model, natural, ecosystem, analogy*", then this topic is a collection of documents that are talking about Industrial Ecology and how it uses the metaphor or analogy of nature and ecosystems.
 
 ## [Visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html)
-<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling.png" width="400"></a>
+
+<table><tr><td>
+<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/list"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling.png" height="350"></a>
+</td><td>
+<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/grid"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling2.png" height="350"></a>
+</td></tr></table>
 
 [The visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html) is interactive and allows you to explore several things:
 
