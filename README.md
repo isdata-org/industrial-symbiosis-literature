@@ -3,6 +3,7 @@
 - [What?](#what)
 - [Visualization](#visualization)
 - [Bibliography](#bibliography)
+- [Software](#software)
 
 ## What?
 
@@ -27,12 +28,37 @@ Topics represent collections of words that frequently co-occur within a document
 * [Which words are relevant for the topics](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/words)
 
 Topics including specific words:
-* [Analysis](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/analysis)
-* [Assessment](
+
+* Evaluating EIPs/IS:
+  * [Analysis](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/analysis)
+  * [Assessment](
 http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/assessment)
-* [Criteria](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/criteria)
-* [Indicators](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/indicators)
-* [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor)
+  * [Criteria](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/criteria)
+  * [Indicators](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/indicators)
+  * [Performance](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/performance)
+  
+* Philosophy
+  * [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor) - Nature as a metaphor for EIP/IS
+
+* Tools/Approaches
+  * [Agent](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/agent) - Agent Based Models
+  * [Fuzzy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/fuzzy) - Fuzzy Programming
+  * [Matching](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/matching) - Match-making tools for linking industries
+  * [Optimization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/optimization)
+
+* Energy Related:
+  * [Energy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/energy)
+  * [Emergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/emergy)
+  * [Exergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/emergy)
+
+* Flows/Substances:
+  * [Heat](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/heat)
+  * [Paper](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/paper)
+  * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
+  * [Water](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/water)
+
+* Locations:
+  * [China] (http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
 
 ## Bibliography
 
@@ -41,3 +67,7 @@ In the [literature overview](http://isdata-org.github.io/industrial-symbiosis-li
 The source data used in the analysis below is from the file [IndustrialSymbiosis.bib](IndustrialSymbiosis.bib), which is stored using the [BibTeX](https://en.wikipedia.org/wiki/BibTeX) format.  This is an open standard and [can be read by most literature reference managers](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software#Import_file_formats).
 
 Entries in [IndustrialSymbiosis.bib](IndustrialSymbiosis.bib) containing `file = {Full Text PDF:` indicate that we have the actual pdf of the article and that this is used in the analysis.  Otherwise, only the title, abstract and keywords are used.
+
+## Software
+
+The visualization uses the great [dfrtopics R package](https://github.com/agoldst/dfrtopics) by [Andrew Goldstone](https://andrewgoldstone.com/) which in turn uses [MALLET (MAchine Learning for LanguagE Toolkit)](http://mallet.cs.umass.edu/) to perform the actual [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model).

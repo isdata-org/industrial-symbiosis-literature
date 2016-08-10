@@ -8,11 +8,13 @@ library(RefManageR)
 library(mallet)
 
 # this is an export from zotero where files are exported as well
+# Aside from the paths here, the rest of the paths are relative, 
+# assuming that you loaded this code by opening the project
 entries = ReadBib("/home/cbdavis/Desktop/IndustrialSymbiosis/IndustrialSymbiosis.bib", .Encoding = "UTF-8", check=FALSE)
 df = as.data.frame(entries)
 rm(entries)
-
 baseDir = "/home/cbdavis/Desktop/IndustrialSymbiosis/files"
+
 
 df$FullText = ""
 
@@ -67,12 +69,11 @@ for (col in cols){
   }
 }
 
-
 locs = which(!is.na(df$doi))
 df$id[locs] = paste0("http://dx.doi.org/", df$doi[locs])
 
 emptyIDs = which(is.na(df$id))
-# need to figure out how to directly link to scopus
+
 # link to google scholar if we can't find stuff
 #https://scholar.google.nl/scholar?hl=en&q=2-s2.0-8491989818
 df$id[emptyIDs] = paste0("https://scholar.google.nl/scholar?hl=en&q=",
@@ -84,19 +85,12 @@ df$id[emptyIDs] = paste0("https://scholar.google.nl/scholar?hl=en&q=",
 
 df$id = gsub("http://dx.doi.org/http://dx.doi.org/", "http://dx.doi.org/", df$id)
 
-instance = mallet.import(df$id,
-                         df$SoupText,
-                         "/home/cbdavis/Dropbox/IS Data/Twitter/Bot/en.txt")
-
-
+instance = mallet.import(df$id, df$SoupText, "en.txt")
 
 df = df[,c("id", "title", "author", "journaltitle", "volume", "issue", "pubdate", "pagerange", "doi")]
 # authors need to be separated by a tab in order to show up correctly
 df$author = gsub(" and ", "\t", df$author)
 
 m <- train_model(instance, n_topics=50, n_iters=1000, metadata=df, threads=8)
-#write_mallet_model(m, "modeling_results")
-#export_browser_data(m, out_dir="browser", overwrite=TRUE)
 
-dfr_browser(m, out_dir = "/home/cbdavis/Desktop/svn/industrial-symbiosis-literature/topic-modelling-visualization", internalize = TRUE, browse = FALSE)
-
+dfr_browser(m, out_dir = "../topic-modelling-visualization", internalize = TRUE, browse = FALSE)
