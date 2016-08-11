@@ -36,7 +36,14 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Criteria](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/criteria)
   * [Indicators](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/indicators)
   * [Performance](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/performance)
-  
+
+* General Topics
+ * [Circular](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/circular) - Circular Economy
+ * [Network](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/network)
+ * [Policy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/policy) 
+ * [Social](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/social)
+ * [Trust](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/trust)
+
 * Philosophy
   * [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor) - Nature as a metaphor for EIP/IS
 
@@ -52,6 +59,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Exergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/emergy)
 
 * Flows/Substances:
+  * [Cement](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/cement)
   * [Heat](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/heat)
   * [Paper](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/paper)
   * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
