@@ -62,6 +62,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Cement](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/cement)
   * [Heat](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/heat)
   * [Paper](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/paper)
+  * [Steel](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/steel)
   * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
   * [Water](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/water)
 
