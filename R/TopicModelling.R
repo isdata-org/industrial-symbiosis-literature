@@ -18,30 +18,45 @@ baseDir = "/home/cbdavis/Desktop/IndustrialSymbiosis/files"
 
 df$FullText = ""
 
+entriesWithMultiplePDFs = c()
+entriesNoPDFs = c()
 # process the pdfs which are included
 for (i in c(1:nrow(df))){
   print(i)
   files = strsplit(df$file[i], ":files")[[1]]
   files = tail(files, n=-1) # remove first entry, just metadata
+  pdfCount = 0
   for (file in files){
     name = strsplit(file, ":")[[1]]
     name = name[1]
     if (grepl("\\.pdf$", name)){
-
+      pdfCount = pdfCount + 1
       fileName = paste(baseDir, name, sep="")
       fileName = shQuote(fileName, type = "sh")
-
+      
       text = system(paste('pdftotext ', fileName, " -", sep=""), intern=TRUE)
       text = paste(text, collapse = " ")
       text = gsub("\\f", "", text)
-
+      
       df$FullText[i] = text
-
+      
       print(name)
     }
   }
+  if (pdfCount > 1){
+    entriesWithMultiplePDFs = c(entriesWithMultiplePDFs, i)
+  } else if (pdfCount == 0){
+    entriesNoPDFs = c(entriesNoPDFs, i)
+  }
 }
 
+
+# titles of references with multiple pdfs (probably duplicates)
+# df$title[entriesWithMultiplePDFs]
+# titles of references without abstracts
+# gsub("\\{|\\}", "", df$title[which(is.na(df$abstract))])
+# titles without abstracts and pdfs
+# gsub("\\{|\\}", "", df$title[intersect(which(is.na(df$abstract)), entriesNoPDFs)])
 
 removeText = "[^A-za-z0-9+,.;:() ]+"
 
