@@ -9,7 +9,7 @@ library(mallet)
 
 # this is an export from zotero where files are exported as well
 # Aside from the paths here, the rest of the paths are relative, 
-# assuming that you loaded this code by opening the project
+# assuming that you loaded this code by opening the project (R.Rproj)
 entries = ReadBib("/home/cbdavis/Desktop/IndustrialSymbiosis/IndustrialSymbiosis.bib", .Encoding = "UTF-8", check=FALSE)
 df = as.data.frame(entries)
 rm(entries)
