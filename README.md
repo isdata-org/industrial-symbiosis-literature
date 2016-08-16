@@ -9,6 +9,7 @@
 
 This is an ongoing effort to both collect and analyze literature related to [Industrial Symbiosis](https://en.wikipedia.org/wiki/Industrial_symbiosis).  To analyze the literature, we use [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) ([video](https://www.youtube.com/watch?v=5mkJcxTK1sQ)), which examines statistical properties of the text in order to determine the topics that are present.  
 
+### How are the topics determined?
 Topics represent collections of words that frequently co-occur within a documents, and by looking at the collection of words in a single topic, you can often deduce that the general theme is.  For example, if you see in a topic the words "*industrial, ecology, nature, metaphor, model, natural, ecosystem, analogy*", then this topic is a collection of documents that are talking about Industrial Ecology and how it uses the metaphor or analogy of nature and ecosystems.
 
 ## [Visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html)
