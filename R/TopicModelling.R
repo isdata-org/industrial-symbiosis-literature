@@ -37,6 +37,7 @@ for (i in c(1:nrow(df))){
       text = system(paste('pdftotext ', fileName, " -", sep=""), intern=TRUE)
       text = paste(text, collapse = " ")
       text = gsub("\\f", "", text)
+      text = gsub("-\n", "", text) # remove hyphenation at new lines
       
       df$FullText[i] = text
       
