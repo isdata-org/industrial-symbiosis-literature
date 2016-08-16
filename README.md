@@ -59,6 +59,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Exergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/emergy)
 
 * Flows/Substances:
+  * [Biomass](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/biomass)
   * [Cement](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/cement)
   * [Heat](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/heat)
   * [Paper](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/paper)
