@@ -22,7 +22,7 @@ Topics represent collections of words that frequently co-occur within a document
 [The visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html) is interactive and allows you to explore several things:
 
 * [The collection of topics](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/grid)
-* [How closely topics are related to each other](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/scaled)
+* [How closely topics are related to each other](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/scaled) -  based on a [principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) of the topics
 * [How the prevalence of topics has changed over time](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/list)
 * [Which topics a word is prevalent in](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/eip)
 * [Which words are relevant for the topics](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/words)
