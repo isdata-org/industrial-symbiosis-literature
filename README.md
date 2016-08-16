@@ -70,6 +70,12 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
 
 * Locations:
   * [China] (http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
+  
+* Eco-Industrial Parks:
+  * [Burnside](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/burnside)
+  * [Devens](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/devens)
+  * [Kalundborg](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/kalundborg)
+  * [TEDA](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/teda)
 
 ## Bibliography
 
