@@ -76,6 +76,13 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Devens](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/devens)
   * [Kalundborg](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/kalundborg)
   * [TEDA](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/teda)
+  * [Ulsan](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/ulsan)
+
+* Researchers:
+  * [Robert Ayres](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/ayres)
+  * [Leo Baas](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/baas)
+  * [Frank Boons](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/boons)
+  * [Marian Chertow](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/chertow)
 
 ## Bibliography
 
