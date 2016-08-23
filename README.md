@@ -10,7 +10,7 @@
 This is an ongoing effort to both collect and analyze literature related to [Industrial Symbiosis](https://en.wikipedia.org/wiki/Industrial_symbiosis).  To analyze the literature, we use [Topic Modelling](https://en.wikipedia.org/wiki/Topic_model) ([video](https://www.youtube.com/watch?v=5mkJcxTK1sQ)), which examines statistical properties of the text in order to determine the topics that are present.  
 
 ### How are the topics determined?
-Topics represent collections of words that frequently co-occur within a documents, and by looking at the collection of words in a single topic, you can often deduce that the general theme is.  For example, if you see in a topic the words "*industrial, ecology, nature, metaphor, model, natural, ecosystem, analogy*", then this topic is a collection of documents that are talking about Industrial Ecology and how it uses the metaphor or analogy of nature and ecosystems.
+Topics represent collections of words that frequently co-occur within a document, and by looking at the collection of words in a single topic, you can often deduce that the general theme is.  For example, if you see in a topic the words "*industrial, ecology, nature, metaphor, model, natural, ecosystem, analogy*", then this topic is a collection of documents that are talking about Industrial Ecology and how it uses the metaphor or analogy of nature and ecosystems.
 
 ## [Visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html)
 
@@ -57,20 +57,23 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
 * Energy Related:
   * [Energy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/energy)
   * [Emergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/emergy)
-  * [Exergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/emergy)
+  * [Exergy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/exergy)
 
 * Flows/Substances:
   * [Biomass](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/biomass)
   * [Cement](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/cement)
   * [Heat](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/heat)
+  * [Iron](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/iron)
   * [Paper](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/paper)
+  * [Slag](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/slag)
   * [Steel](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/steel)
   * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
   * [Water](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/water)
 
 * Locations:
-  * [China] (http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
-  
+  * [China](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
+  * [Italy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/italy)
+
 * Eco-Industrial Parks:
   * [Burnside](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/burnside)
   * [Devens](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/devens)
