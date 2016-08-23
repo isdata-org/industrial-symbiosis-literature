@@ -55,6 +55,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
 * Tools/Approaches
   * [Agent](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/agent) - Agent Based Models
   * [Fuzzy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/fuzzy) - Fuzzy Programming
+  * [LCA](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/lca) - Life Cycle Assessment
   * [Matching](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/matching) - Match-making tools for linking industries
   * [Optimization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/optimization) / [Optimisation](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/optimisation)
 
