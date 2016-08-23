@@ -42,6 +42,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
  * [Circular](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/circular) - Circular Economy
  * [Network](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/network)
  * [Policy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/policy) 
+ * [Recycling](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/recycling) 
  * [Social](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/social)
  * [Trust](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/trust)
  * [Urban](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/urban)
@@ -74,9 +75,11 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Steel](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/steel)
   * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
   * [Water](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/water)
-
+  * [Wood](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/wood)
+  
 * Locations:
   * [China](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
+  * [Finland](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/finland)
   * [Italy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/italy)
   * [Japan](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/japan)
   * [United Kingdom](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/uk)
