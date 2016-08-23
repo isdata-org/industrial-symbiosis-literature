@@ -44,6 +44,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
  * [Policy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/policy) 
  * [Social](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/social)
  * [Trust](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/trust)
+ * [Urban](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/urban)
 
 * Organizations
   * [NISP](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/nisp) - [National Industrial Symbiosis Programme](http://www.nispnetwork.com/)
