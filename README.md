@@ -45,6 +45,9 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
  * [Social](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/social)
  * [Trust](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/trust)
 
+* Organizations
+  * [NISP](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/nisp) - [National Industrial Symbiosis Programme](http://www.nispnetwork.com/)
+
 * Philosophy
   * [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor) - Nature as a metaphor for EIP/IS
 
