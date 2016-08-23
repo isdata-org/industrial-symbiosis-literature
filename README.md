@@ -77,6 +77,8 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
 * Locations:
   * [China](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
   * [Italy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/italy)
+  * [Japan](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/japan)
+  * [United Kingdom](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/uk)
 
 * Eco-Industrial Parks:
   * [Burnside](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/burnside)
