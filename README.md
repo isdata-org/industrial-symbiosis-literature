@@ -42,8 +42,13 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
  * [Circular](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/circular) - Circular Economy
  * [Network](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/network)
  * [Policy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/policy) 
+ * [Recycling](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/recycling) 
  * [Social](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/social)
  * [Trust](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/trust)
+ * [Urban](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/urban)
+
+* Organizations
+  * [NISP](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/nisp) - [National Industrial Symbiosis Programme](http://www.nispnetwork.com/)
 
 * Philosophy
   * [Metaphor](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/metaphor) - Nature as a metaphor for EIP/IS
@@ -51,6 +56,7 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
 * Tools/Approaches
   * [Agent](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/agent) - Agent Based Models
   * [Fuzzy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/fuzzy) - Fuzzy Programming
+  * [LCA](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/lca) - Life Cycle Assessment
   * [Matching](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/matching) - Match-making tools for linking industries
   * [Optimization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/optimization) / [Optimisation](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/optimisation)
 
@@ -69,10 +75,14 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [Steel](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/steel)
   * [Sugar](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/sugar)
   * [Water](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/water)
-
+  * [Wood](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/wood)
+  
 * Locations:
   * [China](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/china)
+  * [Finland](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/finland)
   * [Italy](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/italy)
+  * [Japan](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/japan)
+  * [United Kingdom](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/uk)
 
 * Eco-Industrial Parks:
   * [Burnside](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/burnside)
