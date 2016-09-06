@@ -91,11 +91,6 @@ http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visu
   * [TEDA](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/teda)
   * [Ulsan](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/ulsan)
 
-* Researchers:
-  * [Robert Ayres](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/ayres)
-  * [Leo Baas](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/baas)
-  * [Frank Boons](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/boons)
-  * [Marian Chertow](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/word/chertow)
 
 ## Bibliography
 
