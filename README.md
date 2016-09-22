@@ -14,11 +14,7 @@ Topics represent collections of words that frequently co-occur within a document
 
 ## [Visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html)
 
-<table><tr><td>
-<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/list" target="_blank"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling.png" height="350"></a>
-</td><td>
-<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/grid" target="_blank"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModelling2.png" height="350"></a>
-</td></tr></table>
+<a href="http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html#/model/grid" target="_blank"><img src="https://github.com/isdata-org/industrial-symbiosis-literature/raw/master/images/TopicModellingAnimated.gif"></a>
 
 [The visualization](http://isdata-org.github.io/industrial-symbiosis-literature/topic-modelling-visualization/index.html) is interactive and allows you to explore several things:
 
